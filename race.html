@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" href="race.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="road">
+			<img src="car1.svg" alt="" class="carone">		
+		</div>	
+		
+		<div class="road">
+			<img src="car2.svg" alt="" class="cartwo">	
+		</div>
+
+	</div>
+	<div class="info">
+		<p>Твой счёт: <span class="score"></span></p>
+		<p>Твоя ставка: <span class="bet"></span></p>
+		<button class="down">-10</button>
+		<button class="up">+10</button>
+		<p>Кто победит?</p>
+		<button class="black" onclick="start('black')">Чёрная</button>
+		<button class="white" onclick="start('white')">Белая</button>
+	</div>
+	<script src="race.js"></script>
+</body>
+</html>

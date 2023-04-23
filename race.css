@@ -1,0 +1,20 @@
+.wrapper {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+.road {
+border: 2px solid black;
+height: 100px;
+width: 90%;
+background-image: url(finish.png);
+background-repeat: no-repeat;
+background-position: right;
+background-size: contain;
+}
+
+
+.road img{
+width: 90px;	
+}
